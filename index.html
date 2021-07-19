@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GSP Fitness</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="./img/gspfit.png" />
+	<script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+	<header class="header">
+
+		<div class="container">
+			<h1 class="header-logo">
+				<a href="/" area-lable="gspfit">
+					<img src="img/gspfit.png" alt="gspfit" loading="lazy" width="110px">
+				</a>
+			</h1>
+
+			<div class="header__menu">
+
+				<!-- Navegação Mobile -->
+				<button class="button" id="mobile-menu-toggle" aria-label="Toggle Menu" aria-expanded="false"
+					aria-controls="mobileMenu" data-target="#mobileMenu">
+					<img src="img/menu.svg" alt="Mobile Menu" loading="lazy">
+				</button>
+
+				<!-- Navegação Desktop -->
+				<nav class="desktop-menu">
+					<ul>
+						<li><a href="#" class="desktop-menu__link active">Início</a></li>
+						<li><a href="#" class="desktop-menu__link">Sobre</a></li>
+						<li><a href="#" class="desktop-menu__link">Loja</a></li>
+						<li><a href="#" class="desktop-menu__link">Galeria</a></li>
+						<li><a href="#" class="desktop-menu__link">Contato</a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</div>
+
+	</header>
+
+	<nav class="mobile-menu" role="navigation" id="mobileMenu">
+		<div class="mobile-nav-close"></div>
+		<ul role="navigation">
+			<li><a href="#" class="mobile-menu__link">Início</a></li>
+			<li><a href="#" class="mobile-menu__link">Sobre</a></li>
+			<li><a href="#" class="mobile-menu__link">Loja</a></li>
+			<li><a href="#" class="mobile-menu__link">Galeria</a></li>
+			<li><a href="#" class="mobile-menu__link">Contato</a></li>
+		</ul>
+	</nav>
+
+
+	<main>
+
+		<section class="hero">
+
+			<div class="hero__image">
+				<img src="img/hero.jpg" alt="musculacao" loading="lazy">
+			</div>
+
+			<div class="container hero__container">
+
+				<div class="hero-wrapper">
+					<h1 class="hero-wrapper__heading">Seu melhor<span> treino é aqui</span>.</h1>
+					<p clases="hero-wrapper__body">
+						Na GSP Fitness você encontra equipamentos de excelente qualidade e ergonomia com o apoio de instrutores altamente treinados.
+					</p>
+					<br>
+					<a href="#" class="button button--primary" data-content="Find Out More"
+						area-label="Find out more">Saiba mais</a>
+				</div>
+
+				<a href="#scrolldown" class="hero__scrollbtn">
+					SCROLL
+					<img src="img/arrow-down.svg" alt="DOWN">
+				</a>
+
+			</div>
+
+		</section>
+
+
+
+		<section class="get-started get-started-img1 mt-1" id="scrolldown">
+			<div class="overlay"></div>
+
+			<div class="container">
+				<h1 class="text-center">Cadastre-se hoje<br> <span>e ganhe 1ª mês grátis</span></h1>
+				<div id="localStorage">
+					<div id="formulario">
+						<form action="" id="form">
+							<input type="text" placeholder="Nome" id="name">
+							<br>
+							<input type="text" placeholder="E-mail" id="email">
+							<br>
+							<br>
+							<input type="submit" class="button button--primary" value="Cadastrar" id="button">
+						</form>
+					</div>
+					<div id="carregado"></div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+		<section class="training-options pt-1">
+
+			<div class="container">
+
+				<h1 class="training-option__heading text-center">Opções de <span>Treino</span></h1>
+				<p class="training-options__body text-center">Desafie seus limites e busque seus objetivos de condicionamento físico com um passe gratuito para acesso total à academia! Experimente nossa ampla variedade de aulas, treine com os melhores treinadores e acesse o equipamento que você precisa. As ofertas variam de acordo com o local.</p>
+
+
+				<div class="training training--options pt-1">
+
+					<a href="#" class="training__card">
+						<h3 class="training__card-title">Crossfit</h3>
+						<p class="training__card-body">Nossa metodologia se baseia em: Levantamento de Pesos, Movimentos Ginásticos e Monoestruturais (correr, pedalar, remar, etc.).</p>
+						<div class="image-overlay"></div>
+						<div class="training__image">
+							<img src="img/nutrition.jpg" alt="Small Group PT">
+						</div>
+					</a>
+
+					<a href="#" class="training__card">
+						<h3 class="training__card-title">Musculação</h3>
+						<p class="training__card-body">Exercícios realizados com pesos de diversas cargas, amplitude e tempo de contração, o que faz dela uma atividade física indicada para pessoas de diversas idades e com diferentes objetivos.</p>
+						<div class="image-overlay"></div>
+						<div class="training__image">
+							<img src="img/expert-coaching.jpg" alt="Classes">
+						</div>
+					</a>
+
+					<a href="#" class="training__card">
+						<h3 class="training__card-title">Funcional</h3>
+						<p class="training__card-body">Treinos que vão trabalhar vários grupos musculares ao mesmo tempo, com o objetivo de desenvolver  coordenação motora, força, equilíbrio e flexibilidade.</p>
+						<div class="image-overlay"></div>
+						<div class="training__image">
+							<img src="img/support.jpg" alt="One To One">
+						</div>
+					</a>
+				</div>
+
+
+			</div>
+
+		</section>
+
+
+		<section class="get-started get-started-img2 mt-1">
+			<div class="overlay"></div>
+
+			<div class="container">
+				<h1 class="text-center">
+					NÓS VAMOS TE AJUDAR A<br>
+					CONQUISTAR O SHAPE DOS SEUS SONHOS<br>
+					<span>VAMOS PRA CIMA JUNTOS?</span>
+				</h1>
+				<a href="#" class="button button--primary">Cadastrar</a>
+			</div>
+		</section>
+
+
+	</main>
+
+	<footer class="footer pt-1">
+
+		<div class="container text-center footer__copyright">
+			<p class="pt-1 ">&copy; 2021 GSP Fitness - Created by <a href="https://github.com/gustavospriebe/"
+					target="_blank">GSP</a></p>
+		</div>
+
+	</footer>
+
+
+
+</body>
+
+</html>
